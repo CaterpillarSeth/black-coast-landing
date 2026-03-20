@@ -1,0 +1,187 @@
+html.push(`  <section class="section listings" id="listings">
+    <div class="section-inner">
+      <div class="listings-header">
+        <p class="section-label">Available Homes</p>
+        <h2 class="section-title">Secure Your Piece of Paradise</h2>
+        <div class="divider centered"></div>
+        <p class="section-subtitle">Each home is thoughtfully designed for comfort and luxury. Select a lot below to learn more about availability and pricing.</p>
+      </div>
+      <div class="listings-grid">
+        <div class="listing-card"><div class="listing-card-image"><img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=600&q=80" alt="Casa Mar"><span class="listing-status available">Available</span></div><div class="listing-card-body"><p class="listing-number">LOT 1</p><h3>Casa Mar</h3><div class="listing-stats"><div class="listing-stat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg> 3 Bed</div><div class="listing-stat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12h16M4 12a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2M4 12V6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v6"/></svg> 2.5 Bath</div><div class="listing-stat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/></svg> 1,850 sqft</div></div><div class="listing-price">From $89,000 <span>per 1/8 share</span></div></div></div>
+        <div class="listing-card"><div class="listing-card-image"><img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80" alt="Casa Sol"><span class="listing-status available">Available</span></div><div class="listing-card-body"><p class="listing-number">LOT 2</p><h3>Casa Sol</h3><div class="listing-stats"><div class="listing-stat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg> 3 Bed</div><div class="listing-stat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12h16M4 12a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2M4 12V6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v6"/></svg> 3 Bath</div><div class="listing-stat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/></svg> 2,100 sqft</div></div><div class="listing-price">From $95,000 <span>per 1/8 share</span></div></div></div>
+        <div class="listing-card"><div class="listing-card-image"><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=80" alt="Casa Luz"><span class="listing-status available">Available</span></div><div class="listing-card-body"><p class="listing-number">LOT 3</p><h3>Casa Luz</h3><div class="listing-stats"><div class="listing-stat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg> 4 Bed</div><div class="listing-stat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12h16M4 12a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2M4 12V6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v6"/></svg> 3.5 Bath</div><div class="listing-stat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/></svg> 2,400 sqft</div></div><div class="listing-price">From $110,000 <span>per 1/8 share</span></div></div></div>
+        <div class="listing-card"><div class="listing-card-image"><img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=600&q=80" alt="Casa Brisa"><span class="listing-status under-contract">Under Contract</span></div><div class="listing-card-body"><p class="listing-number">LOT 4</p><h3>Casa Brisa</h3><div class="listing-stats"><div class="listing-stat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg> 3 Bed</div><div class="listing-stat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12h16M4 12a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2M4 12V6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v6"/></svg> 2.5 Bath</div><div class="listing-stat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/></svg> 1,900 sqft</div></div><div class="listing-price">From $92,000 <span>per 1/8 share</span></div></div></div>
+        <div class="listing-card"><div class="listing-card-image"><img src="https://images.unsplash.com/photo-1600573472591-ee6b68d14c68?w=600&q=80" alt="Casa Verde"><span class="listing-status available">Available</span></div><div class="listing-card-body"><p class="listing-number">LOT 5</p><h3>Casa Verde</h3><div class="listing-stats"><div class="listing-stat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg> 3 Bed</div><div class="listing-stat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12h16M4 12a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2M4 12V6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v6"/></svg> 2.5 Bath</div><div class="listing-stat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/></svg> 1,750 sqft</div></div><div class="listing-price">From $85,000 <span>per 1/8 share</span></div></div></div>
+        <div class="listing-card"><div class="listing-card-image"><img src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=600&q=80" alt="Casa Oro"><span class="listing-status available">Available</span></div><div class="listing-card-body"><p class="listing-number">LOT 6</p><h3>Casa Oro</h3><div class="listing-stats"><div class="listing-stat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg> 4 Bed</div><div class="listing-stat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12h16M4 12a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2M4 12V6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v6"/></svg> 3.5 Bath</div><div class="listing-stat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/></svg> 2,600 sqft</div></div><div class="listing-price">From $125,000 <span>per 1/8 share</span></div></div></div>
+        <div class="listing-card"><div class="listing-card-image"><img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=600&q=80" alt="Casa Cielo"><span class="listing-status upcoming">Upcoming</span></div><div class="listing-card-body"><p class="listing-number">LOT 7</p><h3>Casa Cielo</h3><div class="listing-stats"><div class="listing-stat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg> 3 Bed</div><div class="listing-stat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12h16M4 12a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2M4 12V6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v6"/></svg> 3 Bath</div><div class="listing-stat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/></svg> 2,050 sqft</div></div><div class="listing-price">Coming Soon <span>waitlist open</span></div></div></div>
+        <div class="listing-card"><div class="listing-card-image"><img src="https://images.unsplash.com/photo-1602343168117-bb8ffe3e2e9f?w=600&q=80" alt="Casa Arena"><span class="listing-status upcoming">Upcoming</span></div><div class="listing-card-body"><p class="listing-number">LOT 8</p><h3>Casa Arena</h3><div class="listing-stats"><div class="listing-stat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg> 3 Bed</div><div class="listing-stat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12h16M4 12a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2M4 12V6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v6"/></svg> 2.5 Bath</div><div class="listing-stat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/></svg> 1,800 sqft</div></div><div class="listing-price">Coming Soon <span>waitlist open</span></div></div></div>
+      </div>
+    </div>
+  </section>
+  <section class="section reserve" id="reserve">
+    <div class="section-inner reserve-inner">
+      <div class="reserve-header">
+        <p class="section-label">Early Access</p>
+        <h2 class="section-title">Lock In Early Access</h2>
+        <div class="divider centered"></div>
+        <p class="section-subtitle">Reserve your spot now for just $250 and secure priority access to our pre-launch pricing before we open to the public.</p>
+      </div>
+      <div class="reserve-cards">
+        <div class="reserve-card">
+          <div class="reserve-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
+          <h3>Priority Access</h3>
+          <p>Be first to view and reserve homes before they are listed publicly. Get exclusive first look at floor plans and pricing.</p>
+        </div>
+        <div class="reserve-card">
+          <div class="reserve-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 1v22M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div>
+          <h3>Save Up to $100k</h3>
+          <p>Early reservers lock in founding member pricing — up to $100,000 below future retail prices on select lots.</p>
+        </div>
+        <div class="reserve-card">
+          <div class="reserve-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>
+          <h3>Limited Supply</h3>
+          <p>Only 42 homes. Only 8 shares per home. Once lots are reserved, they are gone. Join the waitlist before spots fill up.</p>
+        </div>
+      </div>
+      <div class="reserve-cta">
+        <div class="reserve-amount">$250</div>
+        <div class="reserve-amount-label">Fully refundable reservation fee</div>
+        <button class="reserve-btn" onclick="window.location.href='mailto:info@blackcoastestates.com?subject=Early Access Reservation'">Reserve Your Spot<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></button>
+      </div>
+    </div>
+  </section>
+  <section class="section faq" id="faq">
+    <div class="section-inner">
+      <div class="faq-header">
+        <p class="section-label">Questions</p>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <div class="divider centered"></div>
+        <p class="section-subtitle">Everything you need to know about co-owning a home at Black Coast Estates.</p>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question" onclick="this.parentElement.classList.toggle('open')">Is this a timeshare or actual real estate ownership?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></button>
+          <div class="faq-answer"><div class="faq-answer-inner">This is real, deeded ownership — not a timeshare. When you purchase a 1/8 share, your name goes on the official Costa Rica property title, just like any other real estate purchase. You own a tangible asset that appreciates over time and can be sold, inherited, or transferred.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="this.parentElement.classList.toggle('open')">What happens if I want to sell my share?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></button>
+          <div class="faq-answer"><div class="faq-answer-inner">You can sell your 1/8 share at any time on the open market. Because you own a deeded portion of the property, you set your own price. We also maintain a waitlist of interested buyers and can assist with resales to ensure a smooth transfer.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="this.parentElement.classList.toggle('open')">How does booking work for my 42 days?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></button>
+          <div class="faq-answer"><div class="faq-answer-inner">You will have access to our owner app where you can browse availability and book your stays. With 8 owners per home and 336 total owner-days per year (42 x 8), there is ample flexibility. Most owners book 3-6 months in advance, and peak seasons are allocated fairly on a rotating basis.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="this.parentElement.classList.toggle('open')">Can I buy more than one share?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></button>
+          <div class="faq-answer"><div class="faq-answer-inner">Yes. You may purchase up to 4 shares per home (half the property), which would give you up to 168 days per year. Many owners start with one share and add more over time as they fall deeper in love with the Costa Rica lifestyle.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="this.parentElement.classList.toggle('open')">What if something breaks or needs repair?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></button>
+          <div class="faq-answer"><div class="faq-answer-inner">Our on-the-ground property management team handles all maintenance and repairs. They conduct regular inspections, coordinate with local contractors, and ensure everything is in top condition before each owner arrival. Emergency maintenance is available 24/7.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="this.parentElement.classList.toggle('open')">Are there additional fees beyond the purchase price?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></button>
+          <div class="faq-answer"><div class="faq-answer-inner">Yes. There is an annual co-ownership fee that covers property management, maintenance, landscaping, pool care, insurance, property taxes, and admin. This fee is split among the 8 owners and typically ranges from $2,500-$4,500 per share per year depending on the home and services provided.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="this.parentElement.classList.toggle('open')">Do I need to speak Spanish to own property in Costa Rica?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></button>
+          <div class="faq-answer"><div class="faq-answer-inner">No. Our team includes bilingual professionals who manage all aspects of the purchase, legal documentation, and ongoing property management. We work with trusted Costa Rican attorneys who specialize in foreign ownership to ensure everything is handled correctly.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="this.parentElement.classList.toggle('open')">How is the property held legally in Costa Rica?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></button>
+          <div class="faq-answer"><div class="faq-answer-inner">Each property is held within a Costa Rica sociedad anonima (SA) — a corporation structure similar to an LLC. Each owner receives shares in the corporation proportional to their ownership percentage. This is a well-established, tax-efficient structure used by thousands of foreign property owners in Costa Rica.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="this.parentElement.classList.toggle('open')">What if two owners want the same dates?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></button>
+          <div class="faq-answer"><div class="faq-answer-inner">The owner app uses a clear, transparent booking system. When two owners request overlapping dates, priority is given to the owner who booked first. In peak seasons, we encourage early booking and also have a peer-to-peer date exchange feature so owners can trade or lend days easily.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="this.parentElement.classList.toggle('open')">Can I bring guests? Are there extra charges?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></button>
+          <div class="faq-answer"><div class="faq-answer-inner">Guests are absolutely welcome. Your share grants you the full capacity of the home during your booked days. There are no extra guest fees. Most homes comfortably accommodate 6-8 guests. You are simply sharing the home with your co-owners during their booked periods.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="this.parentElement.classList.toggle('open')">Is Costa Rica safe for property owners?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></button>
+          <div class="faq-answer"><div class="faq-answer-inner">Guanacaste, and Playa Negra specifically, is one of the safest and most stable regions in Costa Rica. The area has a thriving expat community, excellent infrastructure, and a strong legal system for property ownership. We have partnered with established local attorneys and property professionals to ensure your investment is fully protected.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="this.parentElement.classList.toggle('open')">What is the climate like in Playa Negra?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></button>
+          <div class="faq-answer"><div class="faq-answer-inner">Playa Negra enjoys a tropical but mild climate. Temperatures average 80-90F year-round, with a dry season (November through April) and a green season (May through October) that brings lush vegetation and occasional afternoon rain showers. It is consistently one of the most comfortable climates in Costa Rica.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="this.parentElement.classList.toggle('open')">Can I use my home as a vacation rental?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></button>
+          <div class="faq-answer"><div class="faq-answer-inner">When you are not using your share, the property management team can coordinate short-term rentals on your behalf. Revenue from rentals is split among owners proportionally. This provides additional income potential while ensuring the home is always well-maintained and professionally managed.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="this.parentElement.classList.toggle('open')">How do I get started?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></button>
+          <div class="faq-answer"><div class="faq-answer-inner">Start by reserving your early access spot for just $250. This is fully refundable and gives you priority access to pre-launch pricing and first selection of lots. From there, we will connect you with our team to review floor plans, answer all your questions, and guide you through the purchase process step by step.</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer" id="contact">
+    <div class="footer-inner">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>Black Coast Estates</h3>
+          <p>An invitation to own something that endures. A private coastal community in Playa Negra, Guanacaste, Costa Rica.</p>
+          <p class="footer-tagline">Where deep-rooted nature meets quiet prestige.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigate</h4>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#listings">Available Homes</a></li>
+            <li><a href="#reserve">Reserve Early</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Community</h4>
+          <ul>
+            <li><a href="#">Our Homes</a></li>
+            <li><a href="#">The Location</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Press Inquiries</a></li>
+          </ul>
+        </div>
+        <div class="footer-newsletter">
+          <h4>Stay Updated</h4>
+          <p>Get the latest on new lot releases, pricing updates, and community news from Playa Negra.</p>
+          <form class="newsletter-form" onsubmit="event.preventDefault(); this.querySelector('button').textContent='Subscribed!';">
+            <input type="email" placeholder="Your email address" required>
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>2026 Black Coast Estates. All rights reserved.</p>
+        <div class="footer-contact">
+          <a href="tel:+14355130074"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.07 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 2.92 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21 16.92z"/></svg> +1 (435) 513-0074</a>
+          <a href="mailto:info@blackcoastestates.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg> info@blackcoastestates.com</a>
+          <a href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Playa Negra, Guanacaste, Costa Rica</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script>
+    const nav = document.getElementById('nav');
+    const navLogo = document.querySelector('.nav-logo');
+    const navLinks = document.getElementById('navLinks');
+    const mobileToggle = document.getElementById('mobileToggle');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 60) {
+        nav.classList.add('scrolled');
+      } else {
+        nav.classList.remove('scrolled');
+      }
+    });
+    mobileToggle.addEventListener('click', () => { navLinks.classList.toggle('open'); });
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => { navLinks.classList.remove('open'); });
+    });
+  </script>
+</body>
+</html>`);
+fs.writeFileSync('index.html', html.join(''));
+console.log('Done! File written successfully.');
